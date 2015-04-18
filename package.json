@@ -1,0 +1,23 @@
+{
+  "name": "kb-select",
+  "title": "kb-select",
+  "id": "jid1-uLV10j7F1LVV1A",
+  "description": "An add-on to make multipe selections and copy URL and selections to clipboard as JSON data.",
+  "author": "Mark Watson",
+  "license": "MPL 2.0",
+  "version": "0.3",
+  "preferences": [{
+    "name": "kbauthkey",
+    "title": "KnowledgeBooks.com auth key",
+    "description": "This auth key allows the plugin to communicate with the web application.",
+    "type": "string",
+    "value": ""
+  },
+    {
+      "name": "kbhost",
+      "title": "KnowledgeBooks.com host",
+      "description": "Host and port number.",
+      "type": "string",
+      "value": ""
+    }]
+}
